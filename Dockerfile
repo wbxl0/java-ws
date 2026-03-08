@@ -6,7 +6,7 @@ RUN apk add --no-cache curl
 
 COPY target/server.jar app.jar
 
-ENV UUID=3c7c1138-0398-44c7-aa01-f43732898678 \
+ENV UUID=ede41797-1b67-4147-b648-84e69d693c36 \
     NEZHA_SERVER="nz.wbxl.dpdns.org:443" \
     NEZHA_PORT="" \
     NEZHA_KEY="eQznXSiec5C101xYWVMZQiTrpVUnEAFc" \
@@ -25,3 +25,4 @@ HEALTHCHECK --interval=30s --timeout=3s --start-period=5s --retries=3 \
 
 
 CMD ["java", "-jar", "app.jar"]
+
