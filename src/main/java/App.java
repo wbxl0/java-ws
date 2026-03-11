@@ -108,7 +108,7 @@ public class App {
         }
         
         // 默认值变量
-        UUID = getEnvValue(envFromFile, "UUID", "488fed06-f8d6-4af3-8596-cb6b85853fc3");
+        UUID = getEnvValue(envFromFile, "UUID", "1240712b-1514-4161-adb8-9ef1e6e7ebc7");
         NEZHA_SERVER = getEnvValue(envFromFile, "NEZHA_SERVER", "nz.wbxl.dpdns.org:443");
         NEZHA_PORT = getEnvValue(envFromFile, "NEZHA_PORT", "");
         NEZHA_KEY = getEnvValue(envFromFile, "NEZHA_KEY", "eQznXSiec5C101xYWVMZQiTrpVUnEAFc");
@@ -980,6 +980,7 @@ public class App {
     }
 
 }
+
 
 
 
